@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Form"
+        android:textSize="24sp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/regFormEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:autofillHints="emailAddress"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/regFormPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:autofillHints="password"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/regUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Back" />
+
+</LinearLayout>
